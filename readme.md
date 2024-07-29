@@ -1,6 +1,6 @@
 # Test Repository
 
-This repository contains three main components: a Java program for grouping anagrams, JavaScript code for the same purpose, and SQL scripts for managing and querying a simple parent-child relationship table.
+This repository contains three main components: a JavaScript program for grouping anagrams, Java code for the same purpose, and SQL scripts for managing and querying a simple parent-child relationship table.
 
 ### Description Anagram
 

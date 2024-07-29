@@ -9,7 +9,7 @@ function groupOfAnagram(arr) {
     const itemsorted = sortedAttr[index];
     const item = arr[index];
     
-    if (!group[itemsorted]) {
+    if (!group[itemsorted]) { //Cek apakah sudah ada apa belum
       group[itemsorted] = []; // Inisialisasi array jika belum ada
     }
     const currentGroup = group[itemsorted];
@@ -28,7 +28,7 @@ function groupOfAnagram(arr) {
   console.log(result);
 }
 
-//sort array
+//sort array attribute
 function sortArrayAtribute(arr) {
   let result = [];
   for (let index = 0; index < arr.length; index++) {
